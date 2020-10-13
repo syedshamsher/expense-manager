@@ -70,80 +70,6 @@ button{
     font-size: 20px;
 }
 
-/* Small Mobile */
-@media only screen and (min-width: 325px){
-    #brand{
-        display: flex;
-        width: 133%;
-        margin: auto;
-    }
-        #brand > img{
-        border-radius: 50%;
-        width: 14%;
-        height: 14%;
-        margin-top: 2px;
-        margin-left: 5px;
-    }  
-        #brand > h1{
-        font-size: 20px;
-        margin-left: 30px;
-        margin-top: 22px;
-        
-    }
-    button{
-        margin-top: 22px;
-        margin-left: 20px;
-        width: 80px;
-        height:20px;
-        font-size: 10px;
-        font-weight: bold;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-    }
-        
-    #form{
-        border: 1px solid black;
-        height: 400px;
-        width: 130%;
-        margin: auto;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-    }
-    #form > div{
-        margin: auto;
-        width: 100%;
-    }
-    input{
-        margin-left: 10px;
-        width: 358px;
-        height: 30px;
-    }
-    #signup > h1{
-        margin-left:90px;
-        font-size: 30px;
-    }
-    
-    #container{
-        width: 400px;
-        margin:auto;
-        
-    }
-    #name{
-        margin-top: 50px;
-    }
-    #register{
-        width: 300px;
-        height: 45px;
-        margin-left: 50px;
-        border-radius: 5px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-        border: 2px solid black;
-        font-size: 20px;
-        font-weight: bold;
-    }
-}
-
 /* Mobile */
 @media only screen and (min-width: 480px){
     #brand{
@@ -189,7 +115,7 @@ button{
     }
     input{
         margin-left: 10px;
-        width: 370px;
+        width: 460px;
         height: 40px;
     }
     #signup > h1{
@@ -207,81 +133,7 @@ button{
     }
     #register{
         width: 300px;
-        margin-left: 50px;
-        border-radius: 5px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-        border: 2px solid black;
-        font-size: 20px;
-        font-weight: bold;
-    }
-}
-
-
-/* b/w tablet & Mobile */
-@media only screen and (min-width: 650px){
-    #brand{
-        display: flex;
-        width: 100%;
-        margin: auto;
-    }
-        #brand > img{
-        border-radius: 50%;
-        width: 10%;
-        height: 10%;
-        margin-top: 2px;
-        margin-left: 20px;
-    }  
-        #brand > h1{
-        font-size: 30px;
-        margin-left: 120px;
-        margin-top: 22px;
-        
-    }
-    button{
-        margin-top: 28px;
         margin-left: 100px;
-        width: 80px;
-        height:20px;
-        font-size: 10px;
-        font-weight: bold;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-    }
-        
-    #form{
-        border: 1px solid black;
-        height: 400px;
-        width: 90%;
-        margin: auto;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-    }
-    #form > div{
-        margin: auto;
-        width: 100%;
-    }
-    input{
-        margin-left: 10px;
-        width: 550px;
-        height: 30px;
-    }
-    #signup > h1{
-        margin-left: 40px;
-        font-size: 30px;
-    }
-    
-    #container{
-        width: 400px;
-        margin:auto;
-        
-    }
-    #name{
-        margin-top: 50px;
-    }
-    #register{
-        width: 300px;
-        margin-left: 205px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
         background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
@@ -303,8 +155,6 @@ button{
         height: 12%;
         margin-top: 5px;
         margin-left: 10px;
-        max-width:  100%;
-        display: block;
     }  
         #brand > h1{
         font-size: 40px;
@@ -444,89 +294,6 @@ button{
     }
 }
 
-/* # b/w desktop & Huge */
-@media only screen and (min-width: 1020px){
-    #brand{
-        display: flex;
-        width: 100%;
-        margin: auto;
-    }
-        #brand > img{
-        border-radius: 50%;
-        width: 9%;
-        height: 9%;
-        margin-top: 10px;
-        margin-left: 30px;
-    }  
-        #brand > h1{
-        font-size: 50px;
-        margin-left: 120px;
-        margin-top: 22px;
-        
-    }
-    button{
-        margin-top: 30px;
-        margin-left: 90px;
-        width: 150px;
-        height:40px;
-        font-size: 20px;
-        font-weight: bold;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-    }
-        
-    #form{
-        height: 340px;
-        width: 75%;
-        margin: auto;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-    }
-    #form > div{
-        margin: auto;
-        width: 700px;
-    }
-    #submit{
-        margin: auto;
-        width:35%;
-        max-width:35%;
-    }
-    input{
-        width: 670px;
-        height: 30px;
-        margin: auto;
-        border-radius: 2px;
-        font-size: 25px;
-    }
-    #signup > h1{
-        text-align: center;
-        font-size: 30px;
-    }
-    
-    #container{
-        width: 400px;
-        margin:auto;
-        
-    }
-    #name{
-        margin-top: 15px;
-    }
-    ::placeholder{
-        font-size: 20px;
-    }
-    #register{
-        width: 500px;
-        height: 50px;
-        margin-left: 100px;
-        border-radius: 5px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-        border: 2px solid black;
-        font-size: 20px;
-        font-weight: bold;
-    }
-} 
-
 /* # Huge */
 @media only screen and (min-width: 1280px){
     #brand{
@@ -598,9 +365,9 @@ button{
         font-size: 20px;
     }
     #register{
-        width: 500px;
+        margin: auto;
+        width: 100%;
         height: 50px;
-        margin-left: 100px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
         background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
@@ -610,7 +377,7 @@ button{
     }
 } 
 
-@media only screen and (min-width: 1500px){
+@media only screen and (min-width: 1400px){
     #brand{
         display: flex;
         width: 100%;

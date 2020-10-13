@@ -37,7 +37,7 @@ function handleRegister() {
             localStorage.setItem("active_user", user);
 
             window.location.href =
-                "C:/Users/user/masai/module-III/project_m/dashboard.html";
+                "C:/Users/shams/Desktop/project-expense-manager/test-expense/dashboard.html";
         }
     }
 
