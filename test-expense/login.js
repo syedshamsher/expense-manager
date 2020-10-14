@@ -25,39 +25,27 @@ function handleRegister()
                 var user = JSON.stringify(user_data[i]);
                 //console.log("user");
                 localStorage.setItem("active_user", user);
-
-                window.location.href =
-                "C:/Users/user/masai/module-III/project_m/dashboard.html";
-
+                window.location.href ="C:/Users/shams/Desktop/project-expense-manager/test-expense/dashboard.html";
             }
-
             else{
                 var h1 = document.createElement("h3");
                 h1.textContent = "password doesn't match";
                 cont.append(h1);
-
                 console.log("wrong password")
                 //counter++
             }
-            
             //break
         }
-
         else if(user_data[i].email != email){
             counter++
         }
-
     }
-    
-
     if(counter == user_data.length){
         var h1 = document.createElement("h3");
         h1.textContent = "Account doesn't exists";
         cont.append(h1);
         console.log("account doesn't exists")
     }
-
-
 }
 
 //upon successful login it should redirects to dashboard

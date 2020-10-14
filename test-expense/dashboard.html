@@ -4,28 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard- Expanse Manager</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:Condensed" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
-    <div id="main">
-        <div id="wrapper">
-            <div id="brand">
-                <img src="https://lh3.googleusercontent.com/CwGrdpSjYOXK8A_CgKDKE6PGFd6mzlEGUnMyqHklpmajplrTr0mvPpECNok4oec0vts" alt="">
-                <h1>DASHBOARD</h1>
-                <a href = "C:\Users\shams\Desktop\project-expense-manager\test-expense\login.html"><button>login</button></a>
-            </div>
+    <div id="wrapper">
+        <div id="brand">
+            <img src="https://lh3.googleusercontent.com/CwGrdpSjYOXK8A_CgKDKE6PGFd6mzlEGUnMyqHklpmajplrTr0mvPpECNok4oec0vts" alt="">
+            <h1>DASHBOARD <span><p></p></span></h1>
+            <button id="ledgerBtn">LEDGER</button>
+            <a href = "C:\Users\shams\Desktop\project-expense-manager\test-expense\registrtion.html"><button>LOGOUT</button></a>
         </div>
     </div>
 
-    <div class="container">
-        <div class="material">
-          Click circles to expand
-          <div class="background background1"></div>
-          <div class="background background2"
-          ></div>
-          <div class="background background3"></div>
+<div id="container">
+
+        <div class="whole ">
+            <div class="type income"><p>TOTAL INCOME</p></div>
+            <div class="plan">
+                <div class="header" id="totalIncome"><span>₹</span>0</div>
+            </div>
         </div>
-      </div>
+            
+        <div class="whole">
+                    <div class="type expense"><p>TOTAL EXPENSE</p></div>
+                <div class="plan">
+                    <div class="header" id="totalExpense"><span>₹</span>0</div>
+                </div>
+        </div>
+
+        <div class="whole">
+            <div class="type"><p>BALANCE</p></div>
+            <div class="plan">
+                <div class="header" id="balance"><span>₹</span>0</div> 
+            </div>
+        </div>    
+</div>
+
+<div id="dynamic">
+    <div id="entry">
+        <form id="form">
+            <div >
+                <input type="text" id="title" name="title" placeholder="Title" required minlength="3">
+            </div><br>
+            <div>
+                <input type="radio" id="debit" name="debit">Debit
+                <input type="radio" id="credit" name="credit">Credit
+            </div><br>
+            <div>
+                <input type="password" id="password" name="password" placeholder="Password" required minlength="6">
+            </div><br>
+            <div>
+                <input type="submit" id="newEntry" value="ADD NEW ENTRY">
+            </div>
+        </form>
+    </div>
+
+    <div id="tableContainer">
+        <table id="myTable">
+            <tr>
+              <td>TITLE</td>
+              <td>TYPE</td>
+              <td>AMOUNT</td>
+              <td>DATE</td>
+            </tr>
+        </table>
+    </div>
+
+    
+</div>
+
+
+    
 
 
 
