@@ -1,0 +1,15 @@
+#myTable{
+    width: 500px;
+}
+
+#myTable, td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+#btnContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}

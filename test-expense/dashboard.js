@@ -16,14 +16,21 @@ window.addEventListener("load", function () {
     form.addEventListener("submit", dashboard);
 
     var btn = document.getElementById('logout');
-    btn.addEventListener('onclick',function(){
+    btn.addEventListener('click',function(){
         logOut("logging out")
     })
+
+    var ledgerBtn = document.getElementById('ledgerBtn')
+    ledgerBtn.addEventListener('click', ledgerPage)
 
     renderDispalyIncome();
     display_transaction();
    
 });
+
+function ledgerPage(){
+    window.location.href = "C:/Users/shams/Desktop/project-expense-manager/test-expense/ledger.html"
+}
 
 function logOut(message)
 {
