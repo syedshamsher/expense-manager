@@ -14,7 +14,7 @@
             <img src="https://lh3.googleusercontent.com/CwGrdpSjYOXK8A_CgKDKE6PGFd6mzlEGUnMyqHklpmajplrTr0mvPpECNok4oec0vts" alt="">
             <h1>DASHBOARD <span><p></p></span></h1>
             <button id="ledgerBtn">LEDGER</button>
-            <a href = "C:\Users\shams\Desktop\project-expense-manager\test-expense\registrtion.html"><button>LOGOUT</button></a>
+            <button id = "logout">LOGOUT</button>
         </div>
     </div>
 
@@ -49,11 +49,11 @@
                 <input type="text" id="title" name="title" placeholder="Title" required minlength="3">
             </div><br>
             <div>
-                <input type="radio" id="debit" name="debit">Debit
-                <input type="radio" id="credit" name="credit">Credit
+                <input type="radio" value="Debit" name="type">Debit
+                <input type="radio" value="Credit" name="type">Credit
             </div><br>
             <div>
-                <input type="password" id="password" name="password" placeholder="Password" required minlength="6">
+                <input type="number" id="password" name="amount" placeholder="Amount" required>
             </div><br>
             <div>
                 <input type="submit" id="newEntry" value="ADD NEW ENTRY">
@@ -63,12 +63,16 @@
 
     <div id="tableContainer">
         <table id="myTable">
-            <tr>
-              <td>TITLE</td>
-              <td>TYPE</td>
-              <td>AMOUNT</td>
-              <td>DATE</td>
-            </tr>
+            <thead>
+                <th>TITLE</th>
+                <th>TYPE</th>
+                <th>AMOUNT</th>
+                <th>DATE</th>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            
         </table>
     </div>
 
@@ -81,6 +85,6 @@
 
 
 
-    <script src="dashboard.js"></script>
+    <script src="dashboard.js"></script> 
 </body>
 </html>

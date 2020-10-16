@@ -11,13 +11,14 @@ function handleRegister() {
     var name = form.get("name");
     var email = form.get("email");
     var password = form.get("password");
-    var payload = { name: name, email: email, password: password };
+    var payload = { name: name, email: email, password: password};
 
    
 
     var cont = document.getElementById("container");
     cont.innerHTML = "";
     var flag = true;
+    console.log(globalArr);
     for (let i = 0; i < globalArr.length; i++) {
         console.log(i);
         console.log(globalArr[i]["email"] == email);
@@ -35,6 +36,7 @@ function handleRegister() {
 
     if (flag) {
         globalArr.push(payload);
+        window.location.href = "C:/Users/user/project-expense-manager/test-expense/login.html"
     }
 
     console.log(globalArr, "hii");
