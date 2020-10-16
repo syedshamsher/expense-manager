@@ -2,31 +2,6 @@ var transactions;
 var h1;  
 var json = JSON.parse(localStorage.getItem("active_user"));
 
-
-function logOut(message)
-{
-    alert(message)
-    localStorage.removeItem('active_user')
-    window.location.href = "login.html"
-}
-
-
-
-function display_name()
-{
-    //var json = JSON.parse(localStorage.getItem("active_user"));
-    if(!json){
-        logOut("unauthorised")
-        return
-    }
-    var p = document.querySelector("p");
-    p.textContent = `Welcome  ${json["name"]}`;
-
-}
-
-
-
-
 //var transactions = [];
 
 window.addEventListener("load", function () {
@@ -45,11 +20,31 @@ window.addEventListener("load", function () {
         logOut("logging out")
     })
 
-    
     renderDispalyIncome();
     display_transaction();
    
 });
+
+function logOut(message)
+{
+    alert(message)
+    localStorage.removeItem('active_user')
+    window.location.href = "C:/Users/shams/Desktop/project-expense-manager/test-expense/login.html"
+}
+
+
+
+function display_name()
+{
+    //var json = JSON.parse(localStorage.getItem("active_user"));
+    if(!json){
+        logOut("unauthorised")
+        return
+    }
+    var p = document.querySelector("p");
+    p.textContent = `Welcome  ${json["name"]}`;
+
+}
 
 function dashboard() {
     event.preventDefault();
@@ -75,19 +70,12 @@ function dashboard() {
          }
 
      }
-  
 
     display_transaction()
 
     saveData("h1", h1);
-    
-
-   
-
 
     renderDispalyIncome();
-
-   
 
     var cont = document.getElementById("mytable");
     //cont.innerHTML = "";
@@ -203,5 +191,3 @@ function display_transaction()
     }
        
 }
-
-
