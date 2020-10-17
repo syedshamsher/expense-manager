@@ -1,7 +1,6 @@
 body{
-    background-color:#FF6E4D;
-    font-family:'Open Sans';
-    font-style:condensed;
+    background-color:rgb(243, 166, 24);
+    font-family: 'Montserrat', sans-serif;
 }
 #navWrapper{
     padding: 2px;
@@ -11,9 +10,10 @@ body{
     display: flex;
     width: 100%;
     margin: auto;
-    background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+    background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
 }
 #brand > img{
+    border-radius: 50%;
     width: 10%;
     height: 10%;
 }
@@ -24,11 +24,10 @@ body{
     
 }
 #form{
-    border: 2px solid  #0c366d;
     width: 50%;
     margin: auto;
     background: rgba(255,255,255,0.35);
-    background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+    background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     border-radius: 7px;
     -webkit-border-radius: 7px;
 }
@@ -67,7 +66,7 @@ button{
     height:40px;
     font-size: 20px;
     background: rgba(255,255,255,0.35);
-    background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+    background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -86,7 +85,8 @@ button{
         margin: auto;
     }
         #brand > img{
-             width: 14%;
+        border-radius: 50%;
+        width: 14%;
         height: 14%;
         margin-top: 2px;
         margin-left: 5px;
@@ -105,17 +105,16 @@ button{
         font-size: 10px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
         
     #form{
-        border: 2px solid  #0c366d;
         border: 1px solid black;
         height: 400px;
         width: 130%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #form > div{
         margin: auto;
@@ -145,7 +144,7 @@ button{
         margin-left: 50px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border: 2px solid black;
         font-size: 20px;
         font-weight: bold;
@@ -163,7 +162,7 @@ button{
         margin: auto;
     }
     #brand > img{
-
+        border-radius: 50%;
         width: 14%;
         height: 14%;
         margin-top: 2px;
@@ -183,17 +182,16 @@ button{
         font-size: 10px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
         
     #form{
-        border: 2px solid  #0c366d;
         border: 1px solid black;
         height: 400px;
         width: 90%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #form > div{
         margin: auto;
@@ -222,7 +220,7 @@ button{
         margin-left: 50px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border: 2px solid black;
         font-size: 20px;
         font-weight: bold;
@@ -240,7 +238,8 @@ button{
         margin: auto;
     }
         #brand > img{
-             width: 10%;
+        border-radius: 50%;
+        width: 10%;
         height: 10%;
         margin-top: 7px;
         margin-left: 20px;
@@ -259,17 +258,16 @@ button{
         font-size: 10px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
         
     #form{
-        border: 2px solid  #0c366d;
         border: 1px solid black;
         height: 400px;
         width: 90%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #form > div{
         margin: auto;
@@ -298,7 +296,7 @@ button{
         margin-left: 125px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border: 2px solid black;
         font-size: 20px;
         font-weight: bold;
@@ -316,7 +314,8 @@ button{
         margin: auto;
     }
         #brand > img{
-             width: 12%;
+        border-radius: 50%;
+        width: 12%;
         height: 12%;
         margin-top: 5px;
         margin-left: 10px;
@@ -337,17 +336,16 @@ button{
         font-size: 15px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
         
     #form{
-        border: 2px solid  #0c366d;
         border: 1px solid black;
         height: 400px;
         width: 90%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #form > div{
         margin: auto;
@@ -379,7 +377,7 @@ button{
         margin-left: 90px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border: 2px solid black;
         font-size: 20px;
         font-weight: bold;
@@ -397,7 +395,8 @@ button{
         margin: auto;
     }
         #brand > img{
-             width: 10%;
+        border-radius: 50%;
+        width: 10%;
         height: 10%;
         margin-top: 10px;
         margin-left: 30px;
@@ -416,17 +415,16 @@ button{
         font-size: 20px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
         
     #form{
-        border: 2px solid  #0c366d;
         border: 1px solid black;
         height: 400px;
         width: 90%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #form > div{
         margin: auto;
@@ -458,7 +456,7 @@ button{
         margin-left: 180px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border: 2px solid black;
         font-size: 20px;
         font-weight: bold;
@@ -476,7 +474,8 @@ button{
         margin: auto;
     }
         #brand > img{
-             width: 9%;
+        border-radius: 50%;
+        width: 9%;
         height: 9%;
         margin-top: 10px;
         margin-left: 30px;
@@ -495,16 +494,15 @@ button{
         font-size: 20px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
         
     #form{
-        border: 2px solid  #0c366d;
         height: 340px;
         width: 75%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #form > div{
         margin: auto;
@@ -544,7 +542,7 @@ button{
         margin-left: 100px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border: 2px solid black;
         font-size: 20px;
         font-weight: bold;
@@ -562,7 +560,7 @@ button{
         margin: auto;
     }
     #brand > img{
-
+        border-radius: 50%;
         width: 9%;
         height: 9%;
         margin-top: 2px;
@@ -582,16 +580,15 @@ button{
         font-size: 20px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
         
     #form{
-        border: 2px solid  #0c366d;
         height: 340px;
         width: 70%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #form > div{
         margin: auto;
@@ -631,7 +628,7 @@ button{
         margin-left: 100px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border: 2px solid black;
         font-size: 20px;
         font-weight: bold;
@@ -648,7 +645,8 @@ button{
         margin: auto;
     }
         #brand > img{
-             width: 7%;
+        border-radius: 50%;
+        width: 7%;
         height: 7%;
         margin-top: 8px;
         margin-left: 160px;
@@ -667,17 +665,16 @@ button{
         font-size: 20px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
         
     #form{
-        border: 2px solid  #0c366d;
         border: 1px solid black;
         height: 400px;
         width: 90%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #form > div{
         margin: auto;
@@ -713,7 +710,7 @@ button{
         margin-left: 200px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border: 2px solid black;
         font-size: 20px;
         font-weight: bold;

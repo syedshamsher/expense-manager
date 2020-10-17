@@ -2,31 +2,6 @@ var transactions;
 var h1;  
 var json = JSON.parse(localStorage.getItem("active_user"));
 
-
-function logOut(message)
-{
-    alert(message)
-    localStorage.removeItem('active_user')
-    window.location.href = "login.html"
-}
-
-
-
-function display_name()
-{
-    //var json = JSON.parse(localStorage.getItem("active_user"));
-    if(!json){
-        logOut("unauthorised")
-        return
-    }
-    var p = document.querySelector("p");
-    p.textContent = `Welcome  ${json["name"]}`;
-
-}
-
-
-
-
 //var transactions = [];
 
 window.addEventListener("load", function () {
@@ -45,13 +20,14 @@ window.addEventListener("load", function () {
         logOut("logging out")
     })
 
-    
+    var ledgerBtn = document.getElementById('ledgerBtn')
+    ledgerBtn.addEventListener('click', ledgerPage)
+
     renderDispalyIncome();
     display_transaction();
    
 });
 
-<<<<<<< HEAD
 function ledgerPage(){
     window.location.href = "C:/Users/shams/Desktop/project-expense-manager/test-expense/ledger.html"
 }
@@ -60,7 +36,7 @@ function logOut(message)
 {
     alert(message)
     localStorage.removeItem('active_user')
-    window.location.href = "login.html"
+    window.location.href = "C:/Users/shams/Desktop/project-expense-manager/test-expense/login.html"
 }
 
 
@@ -77,8 +53,6 @@ function display_name()
 
 }
 
-=======
->>>>>>> 0467b48c394452b5823ad58fcfd8fb5047cb03f5
 function dashboard() {
     event.preventDefault();
     var form = new FormData(event.target);
@@ -88,21 +62,8 @@ function dashboard() {
     var date = new Date()
     //date.toDateString();
     var payload = { title: title, type: type, amount: amount, date: date.toDateString() };
-   
-    
-    //console.log(type);
-    if(type == "Debit")
-    {
-        var get_balance = document.getElementById('balance')
-        var current_balance = get_balance.textContent;
-        if(Number(amount) > Number(current_balance))
-        {
-            alert(" Oops! Not Enough Balance To Debit")
-            return
-        }
-    }
     transactions.push(payload);
-
+    
 
     for(var i = 0; i < h1.length;i++)
      {
@@ -116,7 +77,6 @@ function dashboard() {
          }
 
      }
-  
 
     display_transaction()
 
@@ -124,14 +84,9 @@ function dashboard() {
 
     renderDispalyIncome();
 
-   
-
-    //var cont = document.getElementById("mytable");
+    var cont = document.getElementById("mytable");
     //cont.innerHTML = "";
 }
-
-
-
 function loadData(key) {
     return JSON.parse(localStorage.getItem(key));
 }
@@ -243,5 +198,3 @@ function display_transaction()
     }
        
 }
-
-
