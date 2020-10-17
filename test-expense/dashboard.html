@@ -13,7 +13,7 @@
         <div id="brand">
             <img src="https://lh3.googleusercontent.com/CwGrdpSjYOXK8A_CgKDKE6PGFd6mzlEGUnMyqHklpmajplrTr0mvPpECNok4oec0vts" alt="">
             <h1>DASHBOARD <span><p></p></span></h1>
-            <a href="C:\Users\shams\Desktop\project-expense-manager\test-expense\ledger.html"></a><button id="ledgerBtn">LEDGER</button></a>
+            <a href="ledger.html"></a><button id="ledgerBtn">LEDGER</button></a>
             <button id = "logout">LOGOUT</button>
         </div>
     </div>
@@ -42,38 +42,39 @@
         </div>    
 </div>
 
-<div id="dynamic">
-    <div id="entry">
-        <form id="form">
-            <div >
-                <input type="text" id="title" name="title" placeholder="Title" required minlength="3">
-            </div><br>
-            <div>
-                <input type="radio" value="Debit" name="type">Debit
-                <input type="radio" value="Credit" name="type">Credit
-            </div><br>
-            <div>
-                <input type="number" id="password" name="amount" placeholder="Amount" required>
-            </div><br>
-            <div>
-                <input type="submit" id="newEntry" value="ADD NEW ENTRY">
-            </div>
-        </form>
-    </div>
-
-    <div id="tableContainer">
-        <table id="myTable">
-            <thead>
-                <th>TITLE</th>
-                <th>TYPE</th>
-                <th>AMOUNT</th>
-                <th>DATE</th>
-            </thead>
-            <tbody>
+    <div id="dynamic">
+        <div id="entry">
+            <form id="form">
+                <div >
+                    <input type="text" id="title" name="title" placeholder="Title" required minlength="3">
+                </div><br>
+                <div>
+                    <input type="radio" value="Debit" id="debit" name="type">Debit
+                    <input type="radio" value="Credit" id="credit" name="type">Credit
+                </div><br>
+                <div>
+                    <input type="number" id="amount" name="amount" placeholder="Amount" required>
+                </div><br>
+                <div>
+                    <input type="submit" id="newEntry" value="ADD NEW ENTRY">
+                </div>
+            </form>
+        </div>
+    
+        <div id="tableContainer">
+            <table id="myTable">
+                <thead>
+                    <th>TITLE</th>
+                    <th>TYPE</th>
+                    <th>AMOUNT</th>
+                    <th>DATE</th>
+                </thead>
+                <tbody>
+                    
+                </tbody>
                 
-            </tbody>
-            
-        </table>
+            </table>
+        </div>
     </div>
 
     

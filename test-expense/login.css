@@ -1,6 +1,10 @@
 body{
-    background-color:rgb(243, 181, 12);
+    background-color:rgb(243, 166, 24);
     font-family: 'Montserrat', sans-serif;
+}
+#navWrapper{
+    padding: 2px;
+    background: #0c366d;
 }
 #brand{
     display: flex;
@@ -72,9 +76,12 @@ button{
 
 /* Small Mobile */
 @media only screen and (min-width: 325px){
+    #navWrapper{
+        width: 130%;
+    }
     #brand{
         display: flex;
-        width: 133%;
+        width: 100%;
         margin: auto;
     }
         #brand > img{
@@ -84,7 +91,7 @@ button{
         margin-top: 2px;
         margin-left: 5px;
     }  
-        #brand > h1{
+    #brand > h1{
         font-size: 20px;
         margin-left: 30px;
         margin-top: 22px;
@@ -119,7 +126,7 @@ button{
         height: 30px;
     }
     #login > h1{
-        margin-left:40px;
+        margin-left: 70px;
         font-size: 30px;
     }
     
@@ -151,16 +158,16 @@ button{
         width: 100%;
         margin: auto;
     }
-        #brand > img{
+    #brand > img{
         border-radius: 50%;
         width: 14%;
         height: 14%;
         margin-top: 2px;
         margin-left: 5px;
     }  
-        #brand > h1{
+    #brand > h1{
         font-size: 25px;
-        margin-left: 10px;
+        margin-left: 60px;
         margin-top: 22px;
         
     }
@@ -228,12 +235,12 @@ button{
         border-radius: 50%;
         width: 10%;
         height: 10%;
-        margin-top: 2px;
+        margin-top: 7px;
         margin-left: 20px;
     }  
         #brand > h1{
         font-size: 30px;
-        margin-left: 120px;
+        margin-left: 100px;
         margin-top: 22px;
         
     }
@@ -262,7 +269,7 @@ button{
     }
     input{
         margin-left: 10px;
-        width: 600px;
+        width: 520px;
         height: 30px;
     }
     #login > h1{
@@ -280,7 +287,7 @@ button{
     }
     #register{
         width: 300px;
-        margin-left: 205px;
+        margin-left: 125px;
         border-radius: 5px;
         background: rgba(255,255,255,0.35);
         background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
@@ -308,7 +315,7 @@ button{
     }  
         #brand > h1{
         font-size: 40px;
-        margin-left: 30px;
+        margin-left: 90px;
         margin-top: 22px;
         
     }
@@ -384,7 +391,7 @@ button{
     }  
         #brand > h1{
         font-size: 50px;
-        margin-left: 60px;
+        margin-left: 110px;
         margin-top: 22px;
         
     }
@@ -534,16 +541,16 @@ button{
         width: 100%;
         margin: auto;
     }
-        #brand > img{
+    #brand > img{
         border-radius: 50%;
         width: 9%;
         height: 9%;
         margin-top: 2px;
         margin-left: 100px;
     }  
-        #brand > h1{
+    #brand > h1{
         font-size: 50px;
-        margin-left: 120px;
+        margin-left: 180px;
         margin-top: 22px;
         
     }

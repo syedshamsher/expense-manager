@@ -1,15 +1,425 @@
+body{
+    font-family:'Open Sans';
+    font-style:condensed;
+    background-color:rgb(243, 166, 24);
+
+}
+
+#wrapper{
+    padding: 2px;
+    background: #0c366d;
+}
+#brand{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+}
+#brand > img{
+    border-radius: 50%;
+    width: 6%;
+    height: 6%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#brand > h1{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+span > p {
+    font-size: 15px;
+}
+button{
+    margin-top: 30px;
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    background: rgba(255,255,255,0.35);
+    background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 #myTable{
     width: 500px;
+    background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+
 }
 
 #myTable, td{
-    border: 1px solid black;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tableContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
 }
 th{
-    border: 1px solid black;
+    border: 2px solid black;
+    font-size: large;
 }
 #btnContainer{
     display: flex;
     justify-content: space-evenly;
-    margin: 20px;
+}
+
+/* Small Mobile */
+@media only screen and (min-width: 325px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 8%;
+        height: 8%;
+        margin-left: 2px;
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 8px;
+    }
+    button{
+        margin-top: 22px;
+        margin-left: 10px;
+        width: 95px;
+        height:20px;
+        font-size: 10px;
+        font-weight: bold;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+    }
+    #dashBoardBtn{
+        /* margin-left: 350px; */
+        width: 110px;
+    }
+
+    #myTable{
+        width: 300px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (min-width: 480px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 8%;
+        height: 8%;
+        /* margin-left: 10px; */
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 20px;
+        /* margin-left: 20px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 10px;
+    }
+    button{
+        margin-top: 18px;
+        width: 135px;
+        height: 35px;
+        font-size: 15px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        /* margin-left: 350px; */
+        width: 150px;
+    }
+    
+    #myTable{
+        width: 450px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+    
+
+
+}
+
+
+/* b/w tablet & Mobile */
+@media only screen and (min-width: 650px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 12%;
+        height: 12%;
+        /* margin-left: 10px; */
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 35px;
+        /* margin-left: 30px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        width: 180px;
+        height: 35px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        /* margin-left: 350px; */
+        width: 200px;
+    }
+    
+    #myTable{
+        width: 550px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+    
+
+}
+/* Tablet */
+@media only screen and (min-width: 768px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        /* margin-left: 10px; */
+        margin-top: 8px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        /* margin-left: 30px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 13px;
+    }
+    button{
+        margin-top: 30px;
+        width: 230px;
+        height: 35px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    #myTable{
+        width: 600px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+
+
+}
+
+/* # Desktop */
+@media only screen and (min-width: 992px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 9%;
+        height: 9%;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    #brand > h1{
+        text-align: center;
+        font-size: 30px;
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        width: 250px;
+        height: 35px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    #myTable{
+        width: 700px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+    
+}
+
+/* # b/w desktop & Huge */
+@media only screen and (min-width: 1020px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 7%;
+        height: 7%;
+        /* margin-left: 30px; */
+        margin-top: 5px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        /* margin-left: 100px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        width: 250px;
+        height: 35px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        /* margin-left: 400px; */
+        width: 200px;
+    }
+
+    #myTable{
+        width: 700px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+} 
+
+@media only screen and (min-width: 1500px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 6%;
+        height: 6%;
+        /* margin-left: 100px; */
+        margin-top: 5px;
+    }
+    #brand > h1{
+        font-size: 35px;
+        /* margin-left: 200px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        width: 250px;
+        height: 35px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        /* margin-left: 450px; */
+        width: 200px;
+    }
+   
+    #myTable{
+        width: 700px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+
 }

@@ -85,10 +85,44 @@ span > p {
     font-size: 15px;
 }
 
+#form{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: rgba(255,255,255,0.35);
+    background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 15px 0px 10px 0px;
+    border: 2px solid black;
+}
+#form > div{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    height: 25px;
+    width: 250px;
+    border: 2px solid black;
+    font-weight: 600;
+}
+#debit, #credit{
+    height: 15px;
+    font-size: 20px;
+    width: 15px;
+}
+#newEntry{
+    background-color: rgb(238, 185, 105);
+}
+
+
 #entry{
     display: flex;
     flex-direction: column;
     border: 2px solid black;
+    background-color: rgb(218, 110, 34);
     width: 350px;
     height: 200px;
     float: left;
@@ -102,17 +136,892 @@ span > p {
 
 #myTable{
     width: 500px;
+    background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+
 }
 
 #myTable, td{
-    border: 1px solid black;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
 }
 
 #dynamic{
- display: flex;
- justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #tableContainer{
     margin: 50px;
+}
+th{
+    border: 2px solid black;
+    font-size: large;
+}
+
+
+/* Small Mobile */
+@media only screen and (min-width: 325px){
+    #brand{
+        display: flex;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 8%;
+        height: 8%;
+        margin-left: 2px;
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 10px;
+    }
+    button{
+        margin-top: 22px;
+        margin-left: 10px;
+        width: 60px;
+        height:20px;
+        font-size: 10px;
+        font-weight: bold;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+    }
+    #ledgerBtn{
+        margin-left: 10px;
+    }
+        
+    #form{
+        width: 100%;
+        height: 70%;
+        margin: auto;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 15px 0px 10px 0px;
+        border: 2px solid black;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    input{
+        height: 20px;
+        width: 200px;
+        border: 2px solid black;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    #entry{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        background-color: rgb(218, 110, 34);
+        width: 65%;
+        height: 50%;
+        float: left;
+        padding: 15px 20px 30px 20px;
+        margin-left: 50px;
+    }
+
+    #myTable{
+        width: 300px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        
+    }
+    .type{
+        width: 100px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 32px;
+        border-bottom: 3px solid #0c366d;
+    }
+    .plan{
+        width: 100px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (min-width: 480px){
+    #brand{
+        display: flex;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 8%;
+        height: 8%;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 10px;
+    }
+    button{
+        margin-top: 22px;
+        margin-left: 20px;
+        width: 70px;
+        height:20px;
+        font-size: 10px;
+        font-weight: bold;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+    }
+    #ledgerBtn{
+        margin-left: 20px;
+    }
+        
+    #form{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 15px 0px 25px 0px;
+        border: 2px solid black;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        background-color: rgb(218, 110, 34);
+        width: 78%;
+        height: 50%;
+        float: left;
+        padding: 15px 20px 60px 20px;
+        margin-top: 50px;
+        margin-left: 38px;
+    }
+
+    input{
+        height: 25px;
+        width: 250px;
+        border: 2px solid black;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    #myTable{
+        width: 450px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    .type{
+        width: 100px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 32px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 30px;
+    }
+    .plan{
+        width: 100px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+
+}
+
+
+/* b/w tablet & Mobile */
+@media only screen and (min-width: 650px){
+    #brand{
+        display: flex;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 12%;
+        height: 12%;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 125px;
+        height: 35px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 20px;
+    }
+        
+    #form{
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 35px 0px 35px 0px;
+        border: 2px solid black;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        background-color: rgb(218, 110, 34);
+        width: 88%;
+        height: 50%;
+        float: left;
+        padding: 15px 20px 80px 20px;
+        margin-top: 70px;
+        margin-left: 15px;
+    }
+    input{
+        height: 35px;
+        width: 350px;
+        border: 2px solid black;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+
+    #myTable{
+        width: 550px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    .type{
+        width: 150px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 50px;
+    }
+    .plan{
+        width: 150px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}
+/* Tablet */
+@media only screen and (min-width: 768px){
+    #brand{
+        display: flex;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 13px;
+    }
+    button{
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 125px;
+        height: 35px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 40px;
+    }
+        
+    #form{
+        width: 250px;
+        height: 190px;
+        margin: auto;
+        margin-top: 15px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 35px 0px 35px 0px;
+        border: 2px solid black;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        background-color: rgb(218, 110, 34);
+        width: 350px;
+        height: 240px;
+        float: left;
+        padding: 5px 20px 60px 20px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    input{
+        height: 25px;
+        width: 225px;
+        border: 2px solid black;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #myTable{
+        width: 350px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    .type{
+        width: 180px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 20px;
+    }
+    .plan{
+        width: 180px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}
+
+/* # Desktop */
+@media only screen and (min-width: 992px){
+    #brand{
+        display: flex;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 9%;
+        height: 9%;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        margin-left: 80px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 125px;
+        height: 35px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 180px;
+    }
+        
+    #form{
+        width: 350px;
+        height: 190px;
+        margin: auto;
+        margin-top: 15px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 20px 0px 30px 0px;
+        border: 2px solid black;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        background-color: rgb(218, 110, 34);
+        width: 350px;
+        height: 240px;
+        float: left;
+        padding: 5px 20px 40px 20px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    input{
+        height: 35px;
+        width: 255px;
+        border: 2px solid black;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #myTable{
+        width: 400px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    .type{
+        width: 180px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 20px;
+    }
+    .plan{
+        width: 180px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+/* # b/w desktop & Huge */
+@media only screen and (min-width: 1020px){
+    #brand{
+        display: flex;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 7%;
+        height: 7%;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 280px;
+    }
+        
+    #form{
+        width: 350px;
+        height: 190px;
+        margin: auto;
+        margin-top: 15px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 20px 0px 30px 0px;
+        border: 2px solid black;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        background-color: rgb(218, 110, 34);
+        width: 350px;
+        height: 240px;
+        float: left;
+        padding: 5px 20px 40px 20px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    input{
+        height: 35px;
+        width: 255px;
+        border: 2px solid black;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #myTable{
+        width: 400px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    .type{
+        width: 180px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 20px;
+    }
+    .plan{
+        width: 180px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+} 
+
+@media only screen and (min-width: 1500px){
+    #brand{
+        display: flex;
+        width: 100%;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 6%;
+        height: 6%;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    #brand > h1{
+        font-size: 35px;
+        margin-left: 200px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        margin-left: 150px;
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 280px;
+    }
+        
+    #form{
+        width: 350px;
+        height: 190px;
+        margin: auto;
+        margin-top: 15px;
+        background: rgba(255,255,255,0.35);
+        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 20px 0px 30px 0px;
+        border: 2px solid black;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        background-color: rgb(218, 110, 34);
+        width: 350px;
+        height: 240px;
+        float: left;
+        padding: 5px 20px 40px 20px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    input{
+        height: 35px;
+        width: 255px;
+        border: 2px solid black;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #myTable{
+        width: 400px;
+        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    }
+    .type{
+        width: 180px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 20px;
+    }
+    .plan{
+        width: 180px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
 }

@@ -1,4 +1,9 @@
+var transactions;
+var h1;  
+var json = JSON.parse(localStorage.getItem("active_user"));
+
 window.addEventListener("load", function () {
+    display_name()
     var json = JSON.parse(localStorage.getItem("active_user"));
     console.log(json)
     h1 = JSON.parse( localStorage.getItem("h1") )
@@ -15,7 +20,18 @@ window.addEventListener("load", function () {
     var btnAll = document.getElementById("all")
     btnAll.addEventListener("click", handleSortByAll)
     
+    handleSortByCredit()
+    handleSortByDebit()
+    handleSortByAll()
     })
+
+    function display_name()
+    {
+        //var json = JSON.parse(localStorage.getItem("active_user"));
+        var p = document.querySelector("p");
+        p.textContent = `Welcome  ${json["name"]}`;
+    
+    }
 
 function handleSortByCredit(){
     var table = document.getElementById("myTable");
@@ -121,7 +137,6 @@ function handleSortByAll(){
     }
 
 }
-
 
 
 function loadData(key) {
