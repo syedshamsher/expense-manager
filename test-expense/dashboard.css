@@ -1,7 +1,7 @@
 body{
     font-family:'Open Sans';
     font-style:condensed;
-    background-color:rgb(243, 166, 24);
+    background-color: #FF6E4D;
 
 }
 #container{
@@ -52,9 +52,10 @@ body{
 #brand{
     display: flex;
     width: 100%;
-    background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
 }
 #brand > img{
+    border: 2px solid black;
     border-radius: 50%;
     width: 6%;
     height: 6%;
@@ -73,7 +74,7 @@ button{
     height: 35px;
     font-size: 20px;
     background: rgba(255,255,255,0.35);
-    background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+    background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     border: 2px solid black;
     border-radius: 5px;
     font-weight: bold;
@@ -90,7 +91,7 @@ span > p {
     height: 100%;
     margin: auto;
     background: rgba(255,255,255,0.35);
-    background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+    background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     border-radius: 7px;
     -webkit-border-radius: 7px;
     padding: 15px 0px 10px 0px;
@@ -136,7 +137,7 @@ input{
 
 #myTable{
     width: 500px;
-    background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
 
 }
 
@@ -165,10 +166,10 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     #brand > img{
-        border-radius: 50%;
+
         width: 8%;
         height: 8%;
         margin-left: 2px;
@@ -190,7 +191,7 @@ th{
         font-size: 10px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     #ledgerBtn{
         margin-left: 10px;
@@ -201,7 +202,7 @@ th{
         height: 70%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 15px 0px 10px 0px;
@@ -243,7 +244,7 @@ th{
 
     #myTable{
         width: 300px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         
     }
     .type{
@@ -286,10 +287,10 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     #brand > img{
-        border-radius: 50%;
+
         width: 8%;
         height: 8%;
         margin-left: 10px;
@@ -311,7 +312,7 @@ th{
         font-size: 10px;
         font-weight: bold;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     #ledgerBtn{
         margin-left: 20px;
@@ -322,7 +323,7 @@ th{
         height: 100%;
         margin: auto;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 15px 0px 25px 0px;
@@ -365,7 +366,7 @@ th{
     }
     #myTable{
         width: 450px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     .type{
         width: 100px;
@@ -410,10 +411,10 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     #brand > img{
-        border-radius: 50%;
+
         width: 12%;
         height: 12%;
         margin-left: 10px;
@@ -434,7 +435,7 @@ th{
         height: 35px;
         font-size: 20px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border: 2px solid black;
         border-radius: 5px;
         font-weight: bold;
@@ -448,7 +449,7 @@ th{
         margin: auto;
         margin-top: 15px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 35px 0px 35px 0px;
@@ -491,7 +492,7 @@ th{
 
     #myTable{
         width: 550px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     .type{
         width: 150px;
@@ -533,10 +534,10 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     #brand > img{
-        border-radius: 50%;
+
         width: 10%;
         height: 10%;
         margin-left: 10px;
@@ -557,7 +558,7 @@ th{
         height: 35px;
         font-size: 20px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border: 2px solid black;
         border-radius: 5px;
         font-weight: bold;
@@ -572,7 +573,7 @@ th{
         margin: auto;
         margin-top: 15px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 35px 0px 35px 0px;
@@ -615,7 +616,7 @@ th{
 
     #myTable{
         width: 350px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     .type{
         width: 180px;
@@ -658,10 +659,10 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     #brand > img{
-        border-radius: 50%;
+
         width: 9%;
         height: 9%;
         margin-left: 10px;
@@ -682,7 +683,7 @@ th{
         height: 35px;
         font-size: 20px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border: 2px solid black;
         border-radius: 5px;
         font-weight: bold;
@@ -697,7 +698,7 @@ th{
         margin: auto;
         margin-top: 15px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 20px 0px 30px 0px;
@@ -740,7 +741,7 @@ th{
 
     #myTable{
         width: 400px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     .type{
         width: 180px;
@@ -782,10 +783,10 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     #brand > img{
-        border-radius: 50%;
+
         width: 7%;
         height: 7%;
         margin-left: 30px;
@@ -806,7 +807,7 @@ th{
         height: 40px;
         font-size: 20px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border: 2px solid black;
         border-radius: 5px;
         font-weight: bold;
@@ -821,7 +822,7 @@ th{
         margin: auto;
         margin-top: 15px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 20px 0px 30px 0px;
@@ -864,7 +865,7 @@ th{
 
     #myTable{
         width: 400px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     .type{
         width: 180px;
@@ -906,10 +907,10 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     #brand > img{
-        border-radius: 50%;
+
         width: 6%;
         height: 6%;
         margin-left: 10px;
@@ -930,7 +931,7 @@ th{
         height: 40px;
         font-size: 20px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border: 2px solid black;
         border-radius: 5px;
         font-weight: bold;
@@ -945,7 +946,7 @@ th{
         margin: auto;
         margin-top: 15px;
         background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 20px 0px 30px 0px;
@@ -988,7 +989,7 @@ th{
 
     #myTable{
         width: 400px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background-image: linear-gradient(to top, #f76543, #f96745, #fa6947, #fc6a49, #fd6c4b, #fd7050, #fc7556, #fc795b, #f98165, #f68970, #f2917a, #ee9884);
     }
     .type{
         width: 180px;

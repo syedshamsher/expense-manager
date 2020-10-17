@@ -36,7 +36,7 @@ function logOut(message)
 {
     alert(message)
     localStorage.removeItem('active_user')
-    window.location.href = "C:/Users/shams/Desktop/project-expense-manager/test-expense/login.html"
+    window.location.href = "login.html"
 }
 
 
