@@ -36,7 +36,7 @@ function handleRegister() {
 
     if (flag) {
         globalArr.push(payload);
-        window.location.href = "C:/Users/shams/Desktop/project-expense-manager/test-expense/login.html"
+        window.location.href = "login.html"
     }
 
     console.log(globalArr, "hii");
