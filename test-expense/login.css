@@ -153,6 +153,9 @@ button{
 
 /* Mobile */
 @media only screen and (min-width: 480px){
+    #navWrapper{
+        width: 100%;
+    }
     #brand{
         display: flex;
         width: 100%;
@@ -226,6 +229,9 @@ button{
 
 /* b/w tablet & Mobile */
 @media only screen and (min-width: 650px){
+    #navWrapper{
+        width: 100%;
+    }
     #brand{
         display: flex;
         width: 100%;
@@ -299,6 +305,9 @@ button{
 
 /* Tablet */
 @media only screen and (min-width: 768px){
+    #navWrapper{
+        width: 100%;
+    }
     #brand{
         display: flex;
         width: 100%;
@@ -377,6 +386,9 @@ button{
 
 /* # Desktop */
 @media only screen and (min-width: 992px){
+    #navWrapper{
+        width: 100%;
+    }
     #brand{
         display: flex;
         width: 100%;
@@ -453,6 +465,9 @@ button{
 
 /* # b/w desktop & Huge */
 @media only screen and (min-width: 1020px){
+    #navWrapper{
+        width: 100%;
+    }
     #brand{
         display: flex;
         width: 100%;
@@ -536,6 +551,9 @@ button{
 
 /* # Huge */
 @media only screen and (min-width: 1280px){
+    #navWrapper{
+        width: 100%;
+    }
     #brand{
         display: flex;
         width: 100%;
@@ -618,6 +636,9 @@ button{
 } 
 
 @media only screen and (min-width: 1500px){
+    #navWrapper{
+        width: 100%;
+    }
     #brand{
         display: flex;
         width: 100%;
