@@ -4,21 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration- Expense Manager</title>
-    <link rel="stylesheet" href="registration.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="main">
-        <div id="wrapper">
-            <div id="navWrapper">
-                <div id="brand">
-                    <img src="https://lh3.googleusercontent.com/CwGrdpSjYOXK8A_CgKDKE6PGFd6mzlEGUnMyqHklpmajplrTr0mvPpECNok4oec0vts" alt="">
-                    <h1>EXPENSE MANAGER</h1>
-                    <a href = "login.html"><button>login</button></a>
-                </div>
-            </div>
-
+    <div id="main-background">
+        <div class="mid">
             <div id="signup">
-                <h1>Signup Now!</h1>
+                <h1>Signup Now</h1>
             </div>
             <div id="formCont">
                 <form id="form">
@@ -27,21 +20,29 @@
                         <input type="text" id="name" name="name" placeholder="Name" required minlength="4">
                     </div><br>
                     <div>
-                        <input type="text" id="email" name="email" placeholder="Email" required>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
                     </div><br>
                     <div>
                         <input type="password" id="password" name="password" placeholder="Password" required minlength="6">
                     </div><br>
                     <div>
-                        <input type="submit" id="register" value="register">
+                        <input type="submit" id="register" value="Register">
                     </div><br>
+                    <div id="or">
+                            OR
+                    </div>
                 </form>
+                <a href = "login.html"><button>login</button></a>
+                <div id="container">
+                </div>
             </div>
-
         </div>
     </div>
-    <div id="container">
-    </div>
+
     <script src="registration.js"></script>
 </body>
 </html>
+
+<!-- <div>
+    <img src="https://img.freepik.com/free-icon/correct_318-10822.jpg?size=338&ext=jpg" alt="">
+</div> -->

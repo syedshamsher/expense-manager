@@ -1,8 +1,17 @@
 body{
-    font-family:'Open Sans';
-    font-style:condensed;
-    background-color:rgb(243, 166, 24);
+    background: rgba(22, 21, 21);
+    background-color: rgb(120, 132, 145);
+    background-image: url("https://images.pexels.com/photos/4475525/pexels-photo-4475525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    font-family: Rubik, 'Helvetica', 'Arial', sans-serif;
 
+}
+
+#main-background {
+    background-image: url("https://images.pexels.com/photos/4475525/pexels-photo-4475525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 90px;
+    opacity: 0.8;
 }
 #container{
 	width: 100%;
@@ -47,12 +56,23 @@ body{
 }
 #wrapper{
     padding: 2px;
-    background: #0c366d;
 }
 #brand{
     display: flex;
     width: 100%;
-    background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    margin: auto;
+    color: white;
+
 }
 #brand > img{
     border-radius: 50%;
@@ -72,11 +92,16 @@ button{
     width: 150px;
     height: 35px;
     font-size: 20px;
-    background: rgba(255,255,255,0.35);
-    background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-    border: 2px solid black;
-    border-radius: 5px;
     font-weight: bold;
+    color: white;
+    background-color: #FF3366;
+    border: transparent;
+    outline: none;
+    border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
 }
 #ledgerBtn{
     margin-left: 350px;
@@ -86,15 +111,24 @@ span > p {
 }
 
 #form{
+    color: white;
     width: 100%;
     height: 100%;
     margin: auto;
-    background: rgba(255,255,255,0.35);
-    background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     padding: 15px 0px 10px 0px;
-    border: 2px solid black;
+    border: 2px solid  #FF3366;
 }
 #form > div{
     margin: auto;
@@ -105,7 +139,6 @@ span > p {
 input{
     height: 25px;
     width: 250px;
-    border: 2px solid black;
     font-weight: 600;
 }
 #debit, #credit{
@@ -114,15 +147,31 @@ input{
     width: 15px;
 }
 #newEntry{
-    background-color: rgb(238, 185, 105);
+    border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    color: white;
+    background-color:  #FF3366;
+    
 }
 
 
 #entry{
+    color: white;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
-    background-color: rgb(218, 110, 34);
+     background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
     width: 350px;
     height: 200px;
     float: left;
@@ -131,19 +180,33 @@ input{
     padding: 20px;
 }
 #form{
+    color: white;
     margin: auto;
 }
 
 #myTable{
+    border: 2px solid  #FF3366;
+    color: white;
     width: 500px;
-    background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
 
 }
 
 #myTable, td{
-    border: 2px solid black;
+    border: 2px solid  #FF3366;
+    color: white;
     font-weight: bold;
     text-align: center;
+    
 }
 
 #dynamic{
@@ -155,7 +218,7 @@ input{
     margin: 50px;
 }
 th{
-    border: 2px solid black;
+    border: 2px solid  #FF3366;
     font-size: large;
 }
 
@@ -165,7 +228,18 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
     }
     #brand > img{
         border-radius: 50%;
@@ -183,29 +257,30 @@ th{
         font-size: 10px;
     }
     button{
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
         margin-top: 22px;
         margin-left: 10px;
         width: 60px;
         height:20px;
         font-size: 10px;
         font-weight: bold;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #ledgerBtn{
         margin-left: 10px;
     }
         
     #form{
+        color: white;
         width: 100%;
         height: 70%;
         margin: auto;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 15px 0px 10px 0px;
-        border: 2px solid black;
+        border: 2px solid  #FF3366;
     }
     #form > div{
         margin: auto;
@@ -216,7 +291,8 @@ th{
     input{
         height: 20px;
         width: 200px;
-        border: 2px solid black;
+        border: none;
+        border-radius: 2px;
         font-weight: 600;
     }
     #debit, #credit{
@@ -230,10 +306,20 @@ th{
     }
     
     #entry{
+        color: white;
         display: flex;
         flex-direction: column;
-        border: 2px solid black;
-        background-color: rgb(218, 110, 34);
+        border: 2px solid ;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
         width: 65%;
         height: 50%;
         float: left;
@@ -242,8 +328,9 @@ th{
     }
 
     #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
         width: 300px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
         
     }
     .type{
@@ -286,7 +373,18 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
     }
     #brand > img{
         border-radius: 50%;
@@ -304,29 +402,30 @@ th{
         font-size: 10px;
     }
     button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
         margin-top: 22px;
         margin-left: 20px;
         width: 70px;
         height:20px;
         font-size: 10px;
         font-weight: bold;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
     }
     #ledgerBtn{
         margin-left: 20px;
     }
         
     #form{
+        color: white;
         width: 100%;
         height: 100%;
         margin: auto;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 15px 0px 25px 0px;
-        border: 2px solid black;
+        border: 2px solid  #FF3366;
     }
     #form > div{
         margin: auto;
@@ -335,10 +434,20 @@ th{
         justify-content: space-evenly;
     }
     #entry{
+        color: white;
         display: flex;
         flex-direction: column;
-        border: 2px solid black;
-        background-color: rgb(218, 110, 34);
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
         width: 78%;
         height: 50%;
         float: left;
@@ -350,7 +459,8 @@ th{
     input{
         height: 25px;
         width: 250px;
-        border: 2px solid black;
+        border: none;
+        border-radius: 2px;
         font-weight: 600;
     }
     #debit, #credit{
@@ -364,8 +474,9 @@ th{
         
     }
     #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
         width: 450px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
     }
     .type{
         width: 100px;
@@ -410,7 +521,18 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
     }
     #brand > img{
         border-radius: 50%;
@@ -428,15 +550,21 @@ th{
         font-size: 12px;
     }
     button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
         margin-top: 30px;
         margin-left: 10px;
         width: 125px;
         height: 35px;
         font-size: 20px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-        border: 2px solid black;
-        border-radius: 5px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
         font-weight: bold;
     }
     #ledgerBtn{
@@ -444,15 +572,14 @@ th{
     }
         
     #form{
+        color: white;
         width: 100%;
         margin: auto;
         margin-top: 15px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 35px 0px 35px 0px;
-        border: 2px solid black;
+        border: 2px solid  #FF3366;
     }
     #form > div{
         margin: auto;
@@ -461,10 +588,20 @@ th{
         justify-content: space-evenly;
     }
     #entry{
+        color: white;
         display: flex;
         flex-direction: column;
-        border: 2px solid black;
-        background-color: rgb(218, 110, 34);
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
         width: 88%;
         height: 50%;
         float: left;
@@ -475,7 +612,8 @@ th{
     input{
         height: 35px;
         width: 350px;
-        border: 2px solid black;
+        border: none;
+        border-radius: 2px;
         font-weight: 600;
     }
     #debit, #credit{
@@ -490,8 +628,9 @@ th{
     }
 
     #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
         width: 550px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
     }
     .type{
         width: 150px;
@@ -533,7 +672,18 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
     }
     #brand > img{
         border-radius: 50%;
@@ -551,15 +701,21 @@ th{
         font-size: 13px;
     }
     button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
         margin-top: 30px;
         margin-left: 50px;
         width: 125px;
         height: 35px;
         font-size: 20px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-        border: 2px solid black;
-        border-radius: 5px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
         font-weight: bold;
     }
     #ledgerBtn{
@@ -567,16 +723,15 @@ th{
     }
         
     #form{
+        color: white;
         width: 250px;
         height: 190px;
         margin: auto;
         margin-top: 15px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 35px 0px 35px 0px;
-        border: 2px solid black;
+        border: 2px solid  #FF3366;
     }
     #form > div{
         margin: auto;
@@ -585,10 +740,20 @@ th{
         justify-content: space-evenly;
     }
     #entry{
+        color: white;
         display: flex;
         flex-direction: column;
-        border: 2px solid black;
-        background-color: rgb(218, 110, 34);
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
         width: 350px;
         height: 240px;
         float: left;
@@ -599,7 +764,8 @@ th{
     input{
         height: 25px;
         width: 225px;
-        border: 2px solid black;
+        border: none;
+        border-radius: 2px;
         font-weight: 600;
     }
     #debit, #credit{
@@ -614,8 +780,9 @@ th{
     }
 
     #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
         width: 350px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
     }
     .type{
         width: 180px;
@@ -658,12 +825,23 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
     }
     #brand > img{
         border-radius: 50%;
-        width: 9%;
-        height: 9%;
+        width: 7%;
+        height: 7%;
         margin-left: 10px;
         margin-top: 8px;
     }
@@ -676,15 +854,21 @@ th{
         font-size: 12px;
     }
     button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
         margin-top: 30px;
         margin-left: 100px;
         width: 125px;
         height: 35px;
         font-size: 20px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-        border: 2px solid black;
-        border-radius: 5px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
         font-weight: bold;
     }
     #ledgerBtn{
@@ -692,16 +876,15 @@ th{
     }
         
     #form{
+        color: white;
         width: 350px;
         height: 190px;
         margin: auto;
         margin-top: 15px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 20px 0px 30px 0px;
-        border: 2px solid black;
+        border: 2px solid  #FF3366;
     }
     #form > div{
         margin: auto;
@@ -710,10 +893,20 @@ th{
         justify-content: space-evenly;
     }
     #entry{
+        color: white;
         display: flex;
         flex-direction: column;
-        border: 2px solid black;
-        background-color: rgb(218, 110, 34);
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
         width: 350px;
         height: 240px;
         float: left;
@@ -724,7 +917,8 @@ th{
     input{
         height: 35px;
         width: 255px;
-        border: 2px solid black;
+        border: none;
+        border-radius: 2px;
         font-weight: 600;
     }
     #debit, #credit{
@@ -739,8 +933,9 @@ th{
     }
 
     #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
         width: 400px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
     }
     .type{
         width: 180px;
@@ -782,12 +977,23 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
     }
     #brand > img{
         border-radius: 50%;
-        width: 7%;
-        height: 7%;
+        width: 6%;
+        height: 6%;
         margin-left: 30px;
         margin-top: 10px;
     }
@@ -800,15 +1006,21 @@ th{
         font-size: 12px;
     }
     button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
         margin-top: 30px;
         margin-left: 100px;
         width: 150px;
         height: 40px;
         font-size: 20px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-        border: 2px solid black;
-        border-radius: 5px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
         font-weight: bold;
     }
     #ledgerBtn{
@@ -816,16 +1028,15 @@ th{
     }
         
     #form{
+        color: white;
         width: 350px;
         height: 190px;
         margin: auto;
         margin-top: 15px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 20px 0px 30px 0px;
-        border: 2px solid black;
+        border: 2px solid  #FF3366;
     }
     #form > div{
         margin: auto;
@@ -834,10 +1045,20 @@ th{
         justify-content: space-evenly;
     }
     #entry{
+        color: white;
         display: flex;
         flex-direction: column;
-        border: 2px solid black;
-        background-color: rgb(218, 110, 34);
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
         width: 350px;
         height: 240px;
         float: left;
@@ -848,7 +1069,8 @@ th{
     input{
         height: 35px;
         width: 255px;
-        border: 2px solid black;
+        border: none;
+        border-radius: 2px;
         font-weight: 600;
     }
     #debit, #credit{
@@ -863,8 +1085,9 @@ th{
     }
 
     #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
         width: 400px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
     }
     .type{
         width: 180px;
@@ -906,7 +1129,18 @@ th{
     #brand{
         display: flex;
         width: 100%;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
     }
     #brand > img{
         border-radius: 50%;
@@ -924,15 +1158,21 @@ th{
         font-size: 12px;
     }
     button{
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
         margin-top: 30px;
         margin-left: 150px;
         width: 180px;
         height: 40px;
         font-size: 20px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
-        border: 2px solid black;
-        border-radius: 5px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
         font-weight: bold;
     }
     #ledgerBtn{
@@ -940,16 +1180,15 @@ th{
     }
         
     #form{
+        color: white;
         width: 350px;
         height: 190px;
         margin: auto;
         margin-top: 15px;
-        background: rgba(255,255,255,0.35);
-        background-image: linear-gradient(135deg, #f19f06 0%, #329DE3 100%);
         border-radius: 7px;
         -webkit-border-radius: 7px;
         padding: 20px 0px 30px 0px;
-        border: 2px solid black;
+        border: 2px solid  #FF3366;
     }
     #form > div{
         margin: auto;
@@ -958,10 +1197,20 @@ th{
         justify-content: space-evenly;
     }
     #entry{
+        color: white;
         display: flex;
         flex-direction: column;
-        border: 2px solid black;
-        background-color: rgb(218, 110, 34);
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
         width: 350px;
         height: 240px;
         float: left;
@@ -972,7 +1221,8 @@ th{
     input{
         height: 35px;
         width: 255px;
-        border: 2px solid black;
+        border: none;
+        border-radius: 2px;
         font-weight: 600;
     }
     #debit, #credit{
@@ -987,8 +1237,9 @@ th{
     }
 
     #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
         width: 400px;
-        background-image: linear-gradient(340deg, #329DE3 0%, #f19f06 100%);
     }
     .type{
         width: 180px;

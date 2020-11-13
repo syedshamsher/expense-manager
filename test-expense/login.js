@@ -25,7 +25,7 @@ function handleRegister()
                 var user = JSON.stringify(user_data[i]);
                 //console.log("user");
                 localStorage.setItem("active_user", user);
-                window.location.href ="C:/Users/shams/Desktop/project-expense-manager/test-expense/dashboard.html";
+                window.location.href ="dashboard.html";
             }
             else{
                 var h1 = document.createElement("h3");
