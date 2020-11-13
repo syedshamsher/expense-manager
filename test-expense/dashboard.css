@@ -1,0 +1,1278 @@
+body{
+    background: rgba(22, 21, 21);
+    background-color: rgb(120, 132, 145);
+    background-image: url("https://images.pexels.com/photos/4475525/pexels-photo-4475525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    font-family: Rubik, 'Helvetica', 'Arial', sans-serif;
+
+}
+
+#main-background {
+    background-image: url("https://images.pexels.com/photos/4475525/pexels-photo-4475525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 90px;
+    opacity: 0.8;
+}
+#container{
+	width: 100%;
+    text-align:center;
+    display: flex;
+    justify-content: space-around;
+}
+.type{
+	width: 150px;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #0c366d;
+	height: 42px;
+	border-bottom: 3px solid #0c366d;
+}
+.type p{
+	font-family:'Open Sans';
+    font-weight: 800;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+.plan{
+	width: 150px;
+	background-color: #2b2937;
+    font-family:'Open Sans';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.expense{
+	background-color: #1abc9c;
+	border-bottom: 3px solid #1abc9c;
+}
+.income{
+	background-color: #5d6a9a;
+	border-bottom: 3px solid #5d6a9a;
+}
+.header{
+	border-bottom: 1px solid #494a5a;
+}
+#wrapper{
+    padding: 2px;
+}
+#brand{
+    display: flex;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    margin: auto;
+    color: white;
+
+}
+#brand > img{
+    border-radius: 50%;
+    width: 6%;
+    height: 6%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#brand > h1{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+button{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF3366;
+    border: transparent;
+    outline: none;
+    border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+#ledgerBtn{
+    margin-left: 350px;
+}
+span > p {
+    font-size: 15px;
+}
+
+#form{
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 15px 0px 10px 0px;
+    border: 2px solid  #FF3366;
+}
+#form > div{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    height: 25px;
+    width: 250px;
+    font-weight: 600;
+}
+#debit, #credit{
+    height: 15px;
+    font-size: 20px;
+    width: 15px;
+}
+#newEntry{
+    border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    color: white;
+    background-color:  #FF3366;
+    
+}
+
+
+#entry{
+    color: white;
+    display: flex;
+    flex-direction: column;
+     background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin: 50px;
+    margin-left: 10px;
+    padding: 20px;
+}
+#form{
+    color: white;
+    margin: auto;
+}
+
+#myTable{
+    border: 2px solid  #FF3366;
+    color: white;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+
+}
+
+#myTable, td{
+    border: 2px solid  #FF3366;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#dynamic{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tableContainer{
+    margin: 50px;
+}
+th{
+    border: 2px solid  #FF3366;
+    font-size: large;
+}
+
+
+/* Small Mobile */
+@media only screen and (min-width: 325px){
+    #brand{
+        display: flex;
+        width: 100%;
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 8%;
+        height: 8%;
+        margin-left: 2px;
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 10px;
+    }
+    button{
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
+        margin-top: 22px;
+        margin-left: 10px;
+        width: 60px;
+        height:20px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 10px;
+    }
+        
+    #form{
+        color: white;
+        width: 100%;
+        height: 70%;
+        margin: auto;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 15px 0px 10px 0px;
+        border: 2px solid  #FF3366;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    input{
+        height: 20px;
+        width: 200px;
+        border: none;
+        border-radius: 2px;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    #entry{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid ;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        width: 65%;
+        height: 50%;
+        float: left;
+        padding: 15px 20px 30px 20px;
+        margin-left: 50px;
+    }
+
+    #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
+        width: 300px;
+        
+    }
+    .type{
+        width: 100px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 32px;
+        border-bottom: 3px solid #0c366d;
+    }
+    .plan{
+        width: 100px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (min-width: 480px){
+    #brand{
+        display: flex;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 8%;
+        height: 8%;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 10px;
+    }
+    button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
+        margin-top: 22px;
+        margin-left: 20px;
+        width: 70px;
+        height:20px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 20px;
+    }
+        
+    #form{
+        color: white;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 15px 0px 25px 0px;
+        border: 2px solid  #FF3366;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        width: 78%;
+        height: 50%;
+        float: left;
+        padding: 15px 20px 60px 20px;
+        margin-top: 50px;
+        margin-left: 38px;
+    }
+
+    input{
+        height: 25px;
+        width: 250px;
+        border: none;
+        border-radius: 2px;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
+        width: 450px;
+    }
+    .type{
+        width: 100px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 32px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 30px;
+    }
+    .plan{
+        width: 100px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+
+}
+
+
+/* b/w tablet & Mobile */
+@media only screen and (min-width: 650px){
+    #brand{
+        display: flex;
+        width: 100%;
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 12%;
+        height: 12%;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 125px;
+        height: 35px;
+        font-size: 20px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 20px;
+    }
+        
+    #form{
+        color: white;
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 35px 0px 35px 0px;
+        border: 2px solid  #FF3366;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+        width: 88%;
+        height: 50%;
+        float: left;
+        padding: 15px 20px 80px 20px;
+        margin-top: 70px;
+        margin-left: 15px;
+    }
+    input{
+        height: 35px;
+        width: 350px;
+        border: none;
+        border-radius: 2px;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+
+    #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
+        width: 550px;
+    }
+    .type{
+        width: 150px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 50px;
+    }
+    .plan{
+        width: 150px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}
+/* Tablet */
+@media only screen and (min-width: 768px){
+    #brand{
+        display: flex;
+        width: 100%;
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 13px;
+    }
+    button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 125px;
+        height: 35px;
+        font-size: 20px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 40px;
+    }
+        
+    #form{
+        color: white;
+        width: 250px;
+        height: 190px;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 35px 0px 35px 0px;
+        border: 2px solid  #FF3366;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+        width: 350px;
+        height: 240px;
+        float: left;
+        padding: 5px 20px 60px 20px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    input{
+        height: 25px;
+        width: 225px;
+        border: none;
+        border-radius: 2px;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
+        width: 350px;
+    }
+    .type{
+        width: 180px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 20px;
+    }
+    .plan{
+        width: 180px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}
+
+/* # Desktop */
+@media only screen and (min-width: 992px){
+    #brand{
+        display: flex;
+        width: 100%;
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 7%;
+        height: 7%;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        margin-left: 80px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 125px;
+        height: 35px;
+        font-size: 20px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 180px;
+    }
+        
+    #form{
+        color: white;
+        width: 350px;
+        height: 190px;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 20px 0px 30px 0px;
+        border: 2px solid  #FF3366;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+        width: 350px;
+        height: 240px;
+        float: left;
+        padding: 5px 20px 40px 20px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    input{
+        height: 35px;
+        width: 255px;
+        border: none;
+        border-radius: 2px;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
+        width: 400px;
+    }
+    .type{
+        width: 180px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 20px;
+    }
+    .plan{
+        width: 180px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+/* # b/w desktop & Huge */
+@media only screen and (min-width: 1020px){
+    #brand{
+        display: flex;
+        width: 100%;
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 6%;
+        height: 6%;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        color: white;
+        background-color: #FF3366;
+    border: transparent;
+    outline: none;
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 280px;
+    }
+        
+    #form{
+        color: white;
+        width: 350px;
+        height: 190px;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 20px 0px 30px 0px;
+        border: 2px solid  #FF3366;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+        width: 350px;
+        height: 240px;
+        float: left;
+        padding: 5px 20px 40px 20px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    input{
+        height: 35px;
+        width: 255px;
+        border: none;
+        border-radius: 2px;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
+        width: 400px;
+    }
+    .type{
+        width: 180px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 20px;
+    }
+    .plan{
+        width: 180px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+} 
+
+@media only screen and (min-width: 1500px){
+    #brand{
+        display: flex;
+        width: 100%;
+          background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        margin: auto;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 6%;
+        height: 6%;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    #brand > h1{
+        font-size: 35px;
+        margin-left: 200px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
+        margin-top: 30px;
+        margin-left: 150px;
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+
+        border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+        font-weight: bold;
+    }
+    #ledgerBtn{
+        margin-left: 280px;
+    }
+        
+    #form{
+        color: white;
+        width: 350px;
+        height: 190px;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 20px 0px 30px 0px;
+        border: 2px solid  #FF3366;
+    }
+    #form > div{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #entry{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid ;
+         background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+        width: 350px;
+        height: 240px;
+        float: left;
+        padding: 5px 20px 40px 20px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    input{
+        height: 35px;
+        width: 255px;
+        border: none;
+        border-radius: 2px;
+        font-weight: 600;
+    }
+    #debit, #credit{
+        height: 15px;
+        font-size: 20px;
+        width: 15px;
+    }
+    #dynamic{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #myTable{
+        border: 2px solid  #FF3366;
+        color: white;
+        width: 400px;
+    }
+    .type{
+        width: 180px;
+        border-radius: 5px 5px 0px 0px;
+        background-color: #0c366d;
+        height: 42px;
+        border-bottom: 3px solid #0c366d;
+        margin-top: 20px;
+    }
+    .plan{
+        width: 180px;
+        background-color: #2b2937;
+        font-family:'Open Sans';
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .expense{
+        background-color: #1abc9c;
+        border-bottom: 3px solid #1abc9c;
+    }
+    .income{
+        background-color: #5d6a9a;
+        border-bottom: 3px solid #5d6a9a;
+    }
+    .type p{
+        font-family:'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}

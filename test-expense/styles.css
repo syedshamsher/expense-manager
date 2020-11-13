@@ -1,0 +1,129 @@
+
+    body {
+        background: rgba(22, 21, 21);
+        background-color: rgb(120, 132, 145);
+        background-image: url("https://images.pexels.com/photos/4475525/pexels-photo-4475525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+        font-family: Rubik, 'Helvetica', 'Arial', sans-serif;
+    }
+
+    #main-background {
+        background-image: url("https://images.pexels.com/photos/4475525/pexels-photo-4475525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+        background-size: cover;
+        padding-top: 15px;
+        padding-bottom: 40px;
+        opacity: 1;
+    }
+    .mid {
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        width: 500px;
+        height: 500px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #formCont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container {
+        font-size: 10px;
+        width: 50%;
+        margin: auto;
+        color: white;
+        text-align: center;
+    }
+
+    #form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+    #form > div{
+        margin: auto;
+    }
+    input{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 350px;
+        height: 30px;
+        border-radius: 10px 10px;
+        border: transparent;
+        background-color: white;
+        color: black;
+        outline: none;
+        font-size: 25px;
+        font-weight: 500;
+    }
+     #signup > h1{
+ 
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+    #signup {
+        padding-top: 20px;
+    }
+     .login > h1{
+ 
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+    .login {
+        padding-top: 20px;
+    }
+
+    #register{
+        width: 300px;
+        height: 30px;
+        border-radius: 10px;
+        outline: none;
+        border: transparent;
+        font-size: 15px;
+        background-color: #22d074;
+        color: white;
+        font-weight: 800;
+    }
+    ::placeholder{
+        font-size: 20px;
+    }
+
+    button {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 15px;
+        color: white;
+        font-weight: 800;
+        margin-left: 30%;
+        background-color: #22d074;
+        border: transparent;
+        outline: none;
+
+
+    }
+
+  
+
+    #or {
+        color: white;
+        padding: 2px;
+    }
+
+    img {
+        background: none;
+        width: 100px;
+        border-radius: 50%;
+    }

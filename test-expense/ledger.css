@@ -1,0 +1,637 @@
+body{
+    background: rgba(22, 21, 21);
+    background-color: rgb(91, 93, 95);
+    background-image: url("https://images.pexels.com/photos/4475525/pexels-photo-4475525.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    font-family: Rubik, 'Helvetica', 'Arial', sans-serif;
+    background-size: cover;
+
+}
+
+#wrapper{
+    padding: 2px;
+}
+#brand{
+    display: flex;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    color: white;
+}
+#brand > img{
+    border-radius: 50%;
+    width: 6%;
+    height: 6%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#brand > h1{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+span > p {
+    font-size: 15px;
+}
+button{
+    margin-top: 30px;
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    background-color: #FF3366;
+    border: transparent;
+    outline: none;
+    border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    font-weight: bold;
+}
+
+#myTable{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    color: white;
+
+}
+
+#myTable{
+    border: 2px solid white;
+}
+
+td{
+    border: 2px solid #FF3366 ;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tableContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+th{
+    border: 2px solid #FF3366;
+    font-size: large;
+}
+#btnContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Small Mobile */
+@media only screen and (min-width: 325px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 8%;
+        height: 8%;
+        margin-left: 2px;
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 8px;
+    }
+    button{
+        margin-top: 22px;
+        margin-left: 10px;
+        width: 95px;
+        height:20px;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
+        border-radius: 3rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+    }
+    #dashBoardBtn{
+        /* margin-left: 350px; */
+        width: 110px;
+    }
+
+    #myTable{
+        width: 300px;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+        
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (min-width: 480px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 8%;
+        height: 8%;
+        /* margin-left: 10px; */
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 20px;
+        /* margin-left: 20px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 10px;
+    }
+    button{
+        margin-top: 18px;
+        width: 135px;
+        height: 35px;
+        font-size: 15px;
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
+        border-radius: 3rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+    
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        /* margin-left: 350px; */
+        width: 150px;
+    }
+    
+    #myTable{
+        width: 450px;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+    
+
+
+}
+
+
+/* b/w tablet & Mobile */
+@media only screen and (min-width: 650px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 12%;
+        height: 12%;
+        /* margin-left: 10px; */
+        margin-top: 15px;
+    }
+    #brand > h1{
+        font-size: 35px;
+        /* margin-left: 30px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        width: 180px;
+        height: 35px;
+        font-size: 20px;
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
+        border-radius: 3rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+    
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        /* margin-left: 350px; */
+        width: 200px;
+    }
+    
+    #myTable{
+        width: 550px;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+    
+
+}
+/* Tablet */
+@media only screen and (min-width: 768px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        /* margin-left: 10px; */
+        margin-top: 8px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        /* margin-left: 30px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 13px;
+    }
+    button{
+        margin-top: 30px;
+        width: 230px;
+        height: 35px;
+        font-size: 20px;
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
+        border-radius: 3rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+        font-weight: bold;
+    }
+
+    #myTable{
+        width: 600px;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+
+
+}
+
+/* # Desktop */
+@media only screen and (min-width: 992px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 9%;
+        height: 9%;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    #brand > h1{
+        text-align: center;
+        font-size: 30px;
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        width: 250px;
+        height: 35px;
+        font-size: 20px;
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
+        border-radius: 3rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+    
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    #myTable{
+        width: 700px;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+    
+}
+
+/* # b/w desktop & Huge */
+@media only screen and (min-width: 1020px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 7%;
+        height: 7%;
+        /* margin-left: 30px; */
+        margin-top: 5px;
+    }
+    #brand > h1{
+        font-size: 30px;
+        /* margin-left: 100px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        width: 250px;
+        height: 35px;
+        font-size: 20px;
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
+        border-radius: 3rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+    
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        /* margin-left: 400px; */
+        width: 200px;
+    }
+
+    #myTable{
+        width: 700px;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+} 
+
+@media only screen and (min-width: 1500px){
+    #brand{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #brand > img{
+        border-radius: 50%;
+        width: 6%;
+        height: 6%;
+        /* margin-left: 100px; */
+        margin-top: 5px;
+    }
+    #brand > h1{
+        font-size: 35px;
+        /* margin-left: 200px; */
+        margin-top: 5px;
+    }
+    span > p {
+        font-size: 12px;
+    }
+    button{
+        margin-top: 30px;
+        width: 250px;
+        height: 35px;
+        font-size: 20px;
+        color: white;
+        background-color: #FF3366;
+        border: transparent;
+        outline: none;
+        border-radius: 3rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+    
+        font-weight: bold;
+    }
+    #dashBoardBtn{
+        /* margin-left: 450px; */
+        width: 200px;
+    }
+   
+    #myTable{
+        width: 700px;
+        background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        color: white;
+    }
+    #tableContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+
+}

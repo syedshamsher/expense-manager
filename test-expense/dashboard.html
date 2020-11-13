@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard- Expanse Manager</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:Condensed" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div id="main-background">
+        <div id="wrapper">
+            <div id="brand">
+                <img src="https://img.freepik.com/free-icon/correct_318-10822.jpg?size=338&ext=jpg" alt="">
+                <h1>DASHBOARD <span><p></p></span></h1>
+                <a href="ledger.html"><button id="ledgerBtn">LEDGER</button></a>
+                <button id = "logout">LOGOUT</button>
+            </div>
+        </div>
+    
+    <div id="container">
+    
+            <div class="whole ">
+                <div class="type income"><p>TOTAL INCOME</p></div>
+                <div class="plan">
+                    <div class="header" id="totalIncome"><span>₹</span>0</div>
+                </div>
+            </div>
+                
+            <div class="whole">
+                        <div class="type expense"><p>TOTAL EXPENSE</p></div>
+                    <div class="plan">
+                        <div class="header" id="totalExpense"><span>₹</span>0</div>
+                    </div>
+            </div>
+    
+            <div class="whole">
+                <div class="type"><p>BALANCE</p></div>
+                <div class="plan">
+                    <div class="header" id="balance"><span>₹</span>0</div> 
+                </div>
+            </div>    
+    </div>
+    
+        <div id="dynamic">
+            <div id="entry">
+                <form id="form">
+                    <div >
+                        <input type="text" id="title" name="title" placeholder="Title" required minlength="3">
+                    </div><br>
+                    <div>
+                        <input type="radio" value="Debit" id="debit" name="type">Debit
+                        <input type="radio" value="Credit" id="credit" name="type">Credit
+                    </div><br>
+                    <div>
+                        <input type="number" id="amount" name="amount" placeholder="Amount" required>
+                    </div><br>
+                    <div>
+                        <input type="submit" id="newEntry" value="ADD NEW ENTRY">
+                    </div>
+                </form>
+            </div>
+        
+            <div id="tableContainer">
+                <table id="myTable">
+                    <thead>
+                        <th>TITLE</th>
+                        <th>TYPE</th>
+                        <th>AMOUNT</th>
+                        <th>DATE</th>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                    
+                </table>
+            </div>
+        </div>
+    
+        
+    </div>
+    </div>
+   
+
+
+    
+
+
+
+
+    <script src="dashboard.js"></script> 
+</body>
+</html>
