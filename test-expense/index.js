@@ -13,8 +13,6 @@ function handleRegister() {
     var password = form.get("password");
     var payload = { name: name, email: email, password: password};
 
-   
-
     var cont = document.getElementById("container");
     cont.innerHTML = "";
     var flag = true;

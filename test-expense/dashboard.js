@@ -7,7 +7,7 @@ function logOut(message)
 {
     alert(message)
     localStorage.removeItem('active_user')
-    window.location.href = "login.html"
+    window.location.href = "index.html"
 }
 
 
@@ -58,11 +58,8 @@ function dashboard() {
     var type = form.get("type");
     var amount = form.get("amount");
     var date = new Date()
-    //date.toDateString();
     var payload = { title: title, type: type, amount: amount, date: date.toDateString() };
    
-    
-    //console.log(type);
     if(type == "Debit")
     {
         var get_balance = document.getElementById('balance')
@@ -95,11 +92,7 @@ function dashboard() {
     saveData("h1", h1);
 
     renderDispalyIncome();
-
    
-
-    //var cont = document.getElementById("mytable");
-    //cont.innerHTML = "";
 }
 
 
@@ -149,7 +142,6 @@ function display_transaction()
     var tbody = document.querySelector('tbody')
     tbody.textContent = "";
     
-    //console.log()
     if (transactions.length == 0) {
         console.log("no transactions to show");
         var row = document.createElement('tr');
@@ -161,10 +153,8 @@ function display_transaction()
     else if(transactions.length > 0 && transactions.length <= 5)
     {
         console.log(transactions,"inside display_Transactions");
-        //var j = 0;
         for(var i = transactions.length-1; i>=0; i--)
         {
-            //display_in_table()
             var row = document.createElement('tr');
             var col1 = document.createElement('td');
             var col2 = document.createElement('td');
@@ -184,12 +174,10 @@ function display_transaction()
     }
     else {
 
-        //console.log(transactions.length);
         let n = transactions.length;
         
         for( var i = n-1; i >= n - 5; i--  )
         {
-            //display_in_table()
             var row = document.createElement('tr');
             var col1 = document.createElement('td');
             var col2 = document.createElement('td');

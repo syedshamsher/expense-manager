@@ -21,9 +21,8 @@ function handleRegister()
         if(user_data[i].email == email ){
             //redirects here
             if(user_data[i].password == password)
-            { //counter++;
+            { 
                 var user = JSON.stringify(user_data[i]);
-                //console.log("user");
                 localStorage.setItem("active_user", user);
                 window.location.href ="dashboard.html";
             }
@@ -32,9 +31,7 @@ function handleRegister()
                 h1.textContent = "password doesn't match";
                 cont.append(h1);
                 console.log("wrong password")
-                //counter++
             }
-            //break
         }
         else if(user_data[i].email != email){
             counter++
@@ -47,5 +44,3 @@ function handleRegister()
         console.log("account doesn't exists")
     }
 }
-
-//upon successful login it should redirects to dashboard

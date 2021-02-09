@@ -27,7 +27,6 @@ window.addEventListener("load", function () {
 
     function display_name()
     {
-        //var json = JSON.parse(localStorage.getItem("active_user"));
         var p = document.querySelector("p");
         p.textContent = `Welcome  ${json["name"]}`;
     
