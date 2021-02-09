@@ -53,12 +53,14 @@
         margin: auto;
     }
     input{
-        margin-top: 10px;
+        margin-top: 5px;
         margin-left: 10px;
         margin-right: 10px;
-        width: 350px;
-        height: 30px;
-        border-radius: 10px 10px;
+        width: 330px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 40px;
+        border-radius: 0px;
         border: transparent;
         background-color: white;
         color: black;
@@ -87,31 +89,32 @@
 
     #register{
         width: 300px;
-        height: 30px;
-        border-radius: 10px;
+        height: 40px;
+        border-radius: 0px;
         outline: none;
         border: transparent;
-        font-size: 15px;
+        font-size: 17px;
         background-color: #22d074;
         color: white;
-        font-weight: 800;
+        font-weight: 600;
+        margin-bottom: -10px;
     }
     ::placeholder{
         font-size: 20px;
     }
 
     button {
-        width: 200px;
-        height: 30px;
-        border-radius: 10px;
-        font-size: 15px;
+        width: 300px;
+        height: 40px;
+        border-radius: 0px;
+        font-size: 17px;
         color: white;
-        font-weight: 800;
-        margin-left: 30%;
+        font-weight: 600;
+        margin-left: 20%;
         background-color: #22d074;
         border: transparent;
         outline: none;
-
+        margin-top: 5px
 
     }
 

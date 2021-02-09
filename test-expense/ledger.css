@@ -7,6 +7,10 @@ body{
 
 }
 
+#credit, #debit, #all {
+    background-color: rgb(7, 223, 194)
+}
+
 #wrapper{
     padding: 2px;
 }
@@ -49,11 +53,6 @@ button{
     background-color: #FF3366;
     border: transparent;
     outline: none;
-    border-radius: 3rem;
-    border-top-left-radius: 3rem;
-    border-top-right-radius: 3rem;
-    border-bottom-right-radius: 3rem;
-    border-bottom-left-radius: 3rem;
     font-weight: bold;
 }
 
@@ -141,11 +140,6 @@ th{
         background-color: #FF3366;
         border: transparent;
         outline: none;
-        border-radius: 3rem;
-        border-top-left-radius: 3rem;
-        border-top-right-radius: 3rem;
-        border-bottom-right-radius: 3rem;
-        border-bottom-left-radius: 3rem;
     }
     #dashBoardBtn{
         /* margin-left: 350px; */
@@ -217,12 +211,6 @@ th{
         background-color: #FF3366;
         border: transparent;
         outline: none;
-        border-radius: 3rem;
-        border-top-left-radius: 3rem;
-        border-top-right-radius: 3rem;
-        border-bottom-right-radius: 3rem;
-        border-bottom-left-radius: 3rem;
-    
         font-weight: bold;
     }
     #dashBoardBtn{
@@ -297,12 +285,6 @@ th{
         background-color: #FF3366;
         border: transparent;
         outline: none;
-        border-radius: 3rem;
-        border-top-left-radius: 3rem;
-        border-top-right-radius: 3rem;
-        border-bottom-right-radius: 3rem;
-        border-bottom-left-radius: 3rem;
-    
         font-weight: bold;
     }
     #dashBoardBtn{
@@ -374,11 +356,6 @@ th{
         background-color: #FF3366;
         border: transparent;
         outline: none;
-        border-radius: 3rem;
-        border-top-left-radius: 3rem;
-        border-top-right-radius: 3rem;
-        border-bottom-right-radius: 3rem;
-        border-bottom-left-radius: 3rem;
         font-weight: bold;
     }
 
@@ -448,12 +425,6 @@ th{
         background-color: #FF3366;
         border: transparent;
         outline: none;
-        border-radius: 3rem;
-        border-top-left-radius: 3rem;
-        border-top-right-radius: 3rem;
-        border-bottom-right-radius: 3rem;
-        border-bottom-left-radius: 3rem;
-    
         font-weight: bold;
     }
     #dashBoardBtn{
@@ -525,12 +496,6 @@ th{
         background-color: #FF3366;
         border: transparent;
         outline: none;
-        border-radius: 3rem;
-        border-top-left-radius: 3rem;
-        border-top-right-radius: 3rem;
-        border-bottom-right-radius: 3rem;
-        border-bottom-left-radius: 3rem;
-    
         font-weight: bold;
     }
     #dashBoardBtn{
@@ -601,12 +566,6 @@ th{
         background-color: #FF3366;
         border: transparent;
         outline: none;
-        border-radius: 3rem;
-        border-top-left-radius: 3rem;
-        border-top-right-radius: 3rem;
-        border-bottom-right-radius: 3rem;
-        border-bottom-left-radius: 3rem;
-    
         font-weight: bold;
     }
     #dashBoardBtn{
