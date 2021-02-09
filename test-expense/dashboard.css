@@ -97,6 +97,7 @@ button{
     background-color: #FF3366;
     border: transparent;
     outline: none;
+
 }
 #ledgerBtn{
     margin-left: 350px;
@@ -146,7 +147,6 @@ input{
     background-color:  #FF3366;
     border: none;
     outline: none;
-    
 }
 
 
